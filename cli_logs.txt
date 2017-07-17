@@ -1,0 +1,422 @@
+
+ ____    _____      _      ____    _____           _____   ____    _____ 
+/ ___|  |_   _|    / \    |  _ \  |_   _|         | ____| |___ \  | ____|
+\___ \    | |     / _ \   | |_) |   | |    _____  |  _|     __) | |  _|  
+ ___) |   | |    / ___ \  |  _ <    | |   |_____| | |___   / __/  | |___ 
+|____/    |_|   /_/   \_\ |_| \_\   |_|           |_____| |_____| |_____|
+
+Channel name : mychannel
+Creating channel...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+[36m2017-07-17 08:14:06.501 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.501 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:06.502 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:06.502 UTC [msp] GetLocalMSP -> DEBU 004[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.502 UTC [msp] GetDefaultSigningIdentity -> DEBU 005[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.502 UTC [msp] GetLocalMSP -> DEBU 006[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.502 UTC [msp] GetDefaultSigningIdentity -> DEBU 007[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.502 UTC [msp/identity] Sign -> DEBU 008[0m Sign: plaintext: 0A8C060A074F7267314D53501280062D...53616D706C65436F6E736F727469756D 
+[36m2017-07-17 08:14:06.502 UTC [msp/identity] Sign -> DEBU 009[0m Sign: digest: 12307AFFDE00FBE4B5D99F0E4C6BD9A80EA3AAF6D5AEA7575E9B7766BFAF89FD 
+[36m2017-07-17 08:14:06.503 UTC [msp] GetLocalMSP -> DEBU 00a[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.503 UTC [msp] GetDefaultSigningIdentity -> DEBU 00b[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.503 UTC [msp] GetLocalMSP -> DEBU 00c[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.503 UTC [msp] GetDefaultSigningIdentity -> DEBU 00d[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.503 UTC [msp/identity] Sign -> DEBU 00e[0m Sign: plaintext: 0AC4060A1608021A0608CEE3B1CB0522...329115BA846D478C070AF935BE0B9462 
+[36m2017-07-17 08:14:06.503 UTC [msp/identity] Sign -> DEBU 00f[0m Sign: digest: 920D6BB53ADAA1B6D9CBB98757B6FA8C981E9E2B22D7CC1B27DF7E0D2A38C18F 
+[36m2017-07-17 08:14:06.530 UTC [msp] GetLocalMSP -> DEBU 010[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.530 UTC [msp] GetDefaultSigningIdentity -> DEBU 011[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.530 UTC [msp] GetLocalMSP -> DEBU 012[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.530 UTC [msp] GetDefaultSigningIdentity -> DEBU 013[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.530 UTC [msp/identity] Sign -> DEBU 014[0m Sign: plaintext: 0AC4060A1608021A0608CEE3B1CB0522...C08E3D2CF2FC12080A021A0012021A00 
+[36m2017-07-17 08:14:06.530 UTC [msp/identity] Sign -> DEBU 015[0m Sign: digest: B0FA49F0BE7AFC11C460C0B01A962F584A288A8639C2E6A7445D17BA203D9905 
+[36m2017-07-17 08:14:06.531 UTC [channelCmd] readBlock -> DEBU 016[0m Got status:*orderer.DeliverResponse_Status 
+[36m2017-07-17 08:14:06.531 UTC [msp] GetLocalMSP -> DEBU 017[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.531 UTC [msp] GetDefaultSigningIdentity -> DEBU 018[0m Obtaining default signing identity
+2017-07-17 08:14:06.532 UTC [channelCmd] InitCmdFactory -> INFO 019[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:06.732 UTC [msp] GetLocalMSP -> DEBU 01a[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.732 UTC [msp] GetDefaultSigningIdentity -> DEBU 01b[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.733 UTC [msp] GetLocalMSP -> DEBU 01c[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.733 UTC [msp] GetDefaultSigningIdentity -> DEBU 01d[0m Obtaining default signing identity
+[36m2017-07-17 08:14:06.733 UTC [msp/identity] Sign -> DEBU 01e[0m Sign: plaintext: 0AC4060A1608021A0608CEE3B1CB0522...37AFA01828E212080A021A0012021A00 
+[36m2017-07-17 08:14:06.733 UTC [msp/identity] Sign -> DEBU 01f[0m Sign: digest: DD4744D69AB6EEFB40CD25AAE9643B0913FB097EEDF29A8D4432662EA7037528 
+[36m2017-07-17 08:14:06.734 UTC [channelCmd] readBlock -> DEBU 020[0m Received block:0 
+2017-07-17 08:14:06.734 UTC [main] main -> INFO 021[0m Exiting.....
+===================== Channel "mychannel" is created successfully ===================== 
+
+Having all peers join the channel...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+[36m2017-07-17 08:14:06.767 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.767 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:06.768 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:06.769 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A8A070A5C08011A0C08CEE3B1CB0510...C520207974661A080A000A000A000A00 
+[36m2017-07-17 08:14:06.769 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: 3380F028A6162A897A9EF39DB05DDB17CD5FB2659CC6EA41ED9BDEFF9C96644E 
+2017-07-17 08:14:06.808 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:06.808 UTC [main] main -> INFO 007[0m Exiting.....
+[36m2017-07-17 08:14:06.841 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:06.841 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:06.843 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:06.843 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A8A070A5C08011A0C08CEE3B1CB0510...FBBA38406FFC1A080A000A000A000A00 
+[36m2017-07-17 08:14:06.844 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: CB5C670EE7E43ECA253F7C724D25F660FBFD41A68396C4067ED34BAB59F67BF6 
+2017-07-17 08:14:06.881 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:06.881 UTC [main] main -> INFO 007[0m Exiting.....
+===================== PEER0 joined on the channel "mychannel" ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer1.org1.example.com:7051
+[36m2017-07-17 08:14:08.917 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:08.917 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:08.918 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:08.918 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A8A070A5C08011A0C08D0E3B1CB0510...C520207974661A080A000A000A000A00 
+[36m2017-07-17 08:14:08.918 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: AD63DFEF5439CFDBAB1539840F07142861E18481F03FA39C5299805E9B2F9965 
+2017-07-17 08:14:08.963 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:08.963 UTC [main] main -> INFO 007[0m Exiting.....
+[36m2017-07-17 08:14:09.012 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:09.012 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:09.013 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:09.014 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A89070A5B08011A0B08D1E3B1CB0510...FBBA38406FFC1A080A000A000A000A00 
+[36m2017-07-17 08:14:09.014 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: CCB9221A3C736D663CAC1FA73EF3032207CFFA7A835DAAD22FD3057EDE15A03B 
+2017-07-17 08:14:09.054 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:09.054 UTC [main] main -> INFO 007[0m Exiting.....
+===================== PEER1 joined on the channel "mychannel" ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org2MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org2.example.com:7051
+[36m2017-07-17 08:14:11.088 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:11.088 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:11.091 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:11.091 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A89070A5B08011A0B08D3E3B1CB0510...C520207974661A080A000A000A000A00 
+[36m2017-07-17 08:14:11.091 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: D5A5C63690EED1D20B7B3BCFEFFF39C1106963BF66AB30E809CE16A9C4FEBD29 
+2017-07-17 08:14:11.130 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:11.130 UTC [main] main -> INFO 007[0m Exiting.....
+[36m2017-07-17 08:14:11.170 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:11.170 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:11.171 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:11.172 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A89070A5B08011A0B08D3E3B1CB0510...FBBA38406FFC1A080A000A000A000A00 
+[36m2017-07-17 08:14:11.172 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: 8179A7C55948DF6E340C37D346D146C375F9C1ADE1226C3CFC678A2AA0FAF531 
+2017-07-17 08:14:11.215 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:11.215 UTC [main] main -> INFO 007[0m Exiting.....
+===================== PEER2 joined on the channel "mychannel" ===================== 
+
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org2MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer1.org2.example.com:7051
+[36m2017-07-17 08:14:13.259 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:13.259 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:13.260 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:13.260 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A89070A5B08011A0B08D5E3B1CB0510...C520207974661A080A000A000A000A00 
+[36m2017-07-17 08:14:13.260 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: AF04333F03B7E84DB7997A945B9A277B317834891E9284EED6DC63F587310B6A 
+2017-07-17 08:14:13.311 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:13.311 UTC [main] main -> INFO 007[0m Exiting.....
+[36m2017-07-17 08:14:13.348 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:13.348 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:13.349 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:13.349 UTC [msp/identity] Sign -> DEBU 004[0m Sign: plaintext: 0A8A070A5C08011A0C08D5E3B1CB0510...FBBA38406FFC1A080A000A000A000A00 
+[36m2017-07-17 08:14:13.349 UTC [msp/identity] Sign -> DEBU 005[0m Sign: digest: C612EEE0A7546031926142A730586F8EAFE7E29E91D2080D78B9D0F211B9C875 
+2017-07-17 08:14:13.396 UTC [channelCmd] executeJoin -> INFO 006[0m Peer joined the channel!
+2017-07-17 08:14:13.396 UTC [main] main -> INFO 007[0m Exiting.....
+===================== PEER3 joined on the channel "mychannel" ===================== 
+
+Updating anchor peers for org1...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+[36m2017-07-17 08:14:15.432 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.432 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:15.433 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:15.433 UTC [msp] GetLocalMSP -> DEBU 004[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.433 UTC [msp] GetDefaultSigningIdentity -> DEBU 005[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.433 UTC [msp] GetLocalMSP -> DEBU 006[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.433 UTC [msp] GetDefaultSigningIdentity -> DEBU 007[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.433 UTC [msp/identity] Sign -> DEBU 008[0m Sign: plaintext: 0A8C060A074F7267314D53501280062D...72731200220A0A0641646D696E731200 
+[36m2017-07-17 08:14:15.433 UTC [msp/identity] Sign -> DEBU 009[0m Sign: digest: 5DA75CF7ED1C9593EAAF0527ED2EC75EC9BC5BC05D25233DC5B82C1F201698F7 
+[36m2017-07-17 08:14:15.433 UTC [msp] GetLocalMSP -> DEBU 00a[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.433 UTC [msp] GetDefaultSigningIdentity -> DEBU 00b[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.433 UTC [msp] GetLocalMSP -> DEBU 00c[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.434 UTC [msp] GetDefaultSigningIdentity -> DEBU 00d[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.434 UTC [msp/identity] Sign -> DEBU 00e[0m Sign: plaintext: 0AC3060A1508021A0608D7E3B1CB0522...70B015F9090C1E7D727F6FF7211C3E93 
+[36m2017-07-17 08:14:15.434 UTC [msp/identity] Sign -> DEBU 00f[0m Sign: digest: 82E84121C9233A0EAF52D3A1E88C2037E428737DF7557C4A7FE4C2A1EA8B0F41 
+[36m2017-07-17 08:14:15.445 UTC [msp] GetLocalMSP -> DEBU 010[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.445 UTC [msp] GetDefaultSigningIdentity -> DEBU 011[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.445 UTC [msp] GetLocalMSP -> DEBU 012[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.446 UTC [msp] GetDefaultSigningIdentity -> DEBU 013[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.446 UTC [msp/identity] Sign -> DEBU 014[0m Sign: plaintext: 0AC3060A1508021A0608D7E3B1CB0522...B153D423411912080A021A0012021A00 
+[36m2017-07-17 08:14:15.446 UTC [msp/identity] Sign -> DEBU 015[0m Sign: digest: 39186A889F5FBD8F72EE797DB2DCF8980B86F85873B00CF4ADA0C4459F4FB3B8 
+[36m2017-07-17 08:14:15.447 UTC [channelCmd] readBlock -> DEBU 016[0m Received block:0 
+2017-07-17 08:14:15.447 UTC [main] main -> INFO 017[0m Exiting.....
+===================== Anchor peers for org "Org1MSP" on "mychannel" is updated successfully ===================== 
+
+Updating anchor peers for org2...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org2MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org2.example.com:7051
+[36m2017-07-17 08:14:15.495 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.495 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:15.497 UTC [channelCmd] InitCmdFactory -> INFO 003[0m Endorser and orderer connections initialized
+[36m2017-07-17 08:14:15.497 UTC [msp] GetLocalMSP -> DEBU 004[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.497 UTC [msp] GetDefaultSigningIdentity -> DEBU 005[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.497 UTC [msp] GetLocalMSP -> DEBU 006[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.497 UTC [msp] GetDefaultSigningIdentity -> DEBU 007[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.497 UTC [msp/identity] Sign -> DEBU 008[0m Sign: plaintext: 0A8C060A074F7267324D53501280062D...72731200220A0A0641646D696E731200 
+[36m2017-07-17 08:14:15.497 UTC [msp/identity] Sign -> DEBU 009[0m Sign: digest: 473EB12A8EDAE00C31383B010A3AC122A8D21CD23ED02ED8A227D5B74BD83A47 
+[36m2017-07-17 08:14:15.498 UTC [msp] GetLocalMSP -> DEBU 00a[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.498 UTC [msp] GetDefaultSigningIdentity -> DEBU 00b[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.498 UTC [msp] GetLocalMSP -> DEBU 00c[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.498 UTC [msp] GetDefaultSigningIdentity -> DEBU 00d[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.498 UTC [msp/identity] Sign -> DEBU 00e[0m Sign: plaintext: 0AC3060A1508021A0608D7E3B1CB0522...5CC842CCBEB16518FA28A826BD99115D 
+[36m2017-07-17 08:14:15.498 UTC [msp/identity] Sign -> DEBU 00f[0m Sign: digest: C87E79D97E24734F23AB6BDC5DF79770EC09EEE7FD468CFDEEA9FD3E0B29977F 
+[36m2017-07-17 08:14:15.523 UTC [msp] GetLocalMSP -> DEBU 010[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.523 UTC [msp] GetDefaultSigningIdentity -> DEBU 011[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.523 UTC [msp] GetLocalMSP -> DEBU 012[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.523 UTC [msp] GetDefaultSigningIdentity -> DEBU 013[0m Obtaining default signing identity
+[36m2017-07-17 08:14:15.523 UTC [msp/identity] Sign -> DEBU 014[0m Sign: plaintext: 0AC3060A1508021A0608D7E3B1CB0522...507836411C0A12080A021A0012021A00 
+[36m2017-07-17 08:14:15.523 UTC [msp/identity] Sign -> DEBU 015[0m Sign: digest: 2CE0ED56E5A986848B9B777CE1D462EB81D76307DCFD77D98A1FC2F551E34D90 
+[36m2017-07-17 08:14:15.525 UTC [channelCmd] readBlock -> DEBU 016[0m Received block:0 
+2017-07-17 08:14:15.525 UTC [main] main -> INFO 017[0m Exiting.....
+===================== Anchor peers for org "Org2MSP" on "mychannel" is updated successfully ===================== 
+
+Installing chaincode on org1/peer0...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+[36m2017-07-17 08:14:15.607 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.607 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:15.607 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 003[0m Using default escc
+2017-07-17 08:14:15.607 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default vscc
+[36m2017-07-17 08:14:15.657 UTC [golang-platform] getCodeFromFS -> DEBU 005[0m getCodeFromFS github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+[36m2017-07-17 08:14:15.823 UTC [golang-platform] func1 -> DEBU 006[0m Discarding GOROOT package fmt
+[36m2017-07-17 08:14:15.823 UTC [golang-platform] func1 -> DEBU 007[0m Discarding provided package github.com/hyperledger/fabric/core/chaincode/shim
+[36m2017-07-17 08:14:15.823 UTC [golang-platform] func1 -> DEBU 008[0m Discarding provided package github.com/hyperledger/fabric/protos/peer
+[36m2017-07-17 08:14:15.823 UTC [golang-platform] func1 -> DEBU 009[0m Discarding GOROOT package strconv
+[36m2017-07-17 08:14:15.823 UTC [golang-platform] GetDeploymentPayload -> DEBU 00a[0m done
+[36m2017-07-17 08:14:15.825 UTC [msp/identity] Sign -> DEBU 00b[0m Sign: plaintext: 0A8A070A5C08031A0C08D7E3B1CB0510...3C66FC330000FFFF7FCF700C001C0000 
+[36m2017-07-17 08:14:15.825 UTC [msp/identity] Sign -> DEBU 00c[0m Sign: digest: 88FEB3853872A52873E175E3F896A309C9E28FD5A004BA789F38BD2E0251DAA5 
+[36m2017-07-17 08:14:15.828 UTC [chaincodeCmd] install -> DEBU 00d[0m Installed remotely response:<status:200 payload:"OK" > 
+2017-07-17 08:14:15.828 UTC [main] main -> INFO 00e[0m Exiting.....
+===================== Chaincode is installed on remote peer PEER0 ===================== 
+
+Install chaincode on org2/peer2...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org2MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org2.example.com:7051
+[36m2017-07-17 08:14:15.866 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:15.866 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:15.866 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 003[0m Using default escc
+2017-07-17 08:14:15.866 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default vscc
+[36m2017-07-17 08:14:15.915 UTC [golang-platform] getCodeFromFS -> DEBU 005[0m getCodeFromFS github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+[36m2017-07-17 08:14:16.044 UTC [golang-platform] func1 -> DEBU 006[0m Discarding GOROOT package fmt
+[36m2017-07-17 08:14:16.044 UTC [golang-platform] func1 -> DEBU 007[0m Discarding provided package github.com/hyperledger/fabric/core/chaincode/shim
+[36m2017-07-17 08:14:16.044 UTC [golang-platform] func1 -> DEBU 008[0m Discarding provided package github.com/hyperledger/fabric/protos/peer
+[36m2017-07-17 08:14:16.044 UTC [golang-platform] func1 -> DEBU 009[0m Discarding GOROOT package strconv
+[36m2017-07-17 08:14:16.044 UTC [golang-platform] GetDeploymentPayload -> DEBU 00a[0m done
+[36m2017-07-17 08:14:16.047 UTC [msp/identity] Sign -> DEBU 00b[0m Sign: plaintext: 0A89070A5B08031A0B08D8E3B1CB0510...3C66FC330000FFFF7FCF700C001C0000 
+[36m2017-07-17 08:14:16.047 UTC [msp/identity] Sign -> DEBU 00c[0m Sign: digest: 9108BEC19EC2F14A59410230AD8034F4210B5D0ADA1A70544F7ACEFCCA87B02D 
+[36m2017-07-17 08:14:16.051 UTC [chaincodeCmd] install -> DEBU 00d[0m Installed remotely response:<status:200 payload:"OK" > 
+2017-07-17 08:14:16.051 UTC [main] main -> INFO 00e[0m Exiting.....
+===================== Chaincode is installed on remote peer PEER2 ===================== 
+
+Instantiating chaincode on org2/peer2...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org2MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org2.example.com:7051
+[36m2017-07-17 08:14:16.089 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:16.089 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:16.090 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 003[0m Using default escc
+2017-07-17 08:14:16.090 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default vscc
+[36m2017-07-17 08:14:16.090 UTC [msp/identity] Sign -> DEBU 005[0m Sign: plaintext: 0A94070A6608031A0B08D8E3B1CB0510...324D53500A04657363630A0476736363 
+[36m2017-07-17 08:14:16.090 UTC [msp/identity] Sign -> DEBU 006[0m Sign: digest: 23B314CDE3A839EC3E65470C3A58ED334885BDEC982695754CB742FA667B0513 
+[36m2017-07-17 08:14:27.446 UTC [msp/identity] Sign -> DEBU 007[0m Sign: plaintext: 0A94070A6608031A0B08D8E3B1CB0510...158267C65E8213C5F473A35BAC04738E 
+[36m2017-07-17 08:14:27.446 UTC [msp/identity] Sign -> DEBU 008[0m Sign: digest: 0C17840CA6D442EF8C70321684FE8868D424D2906DA51A25D59B675FCE83283C 
+2017-07-17 08:14:27.450 UTC [main] main -> INFO 009[0m Exiting.....
+===================== Chaincode Instantiation on PEER2 on channel 'mychannel' is successful ===================== 
+
+Querying chaincode on org1/peer0...
+===================== Querying on PEER0 on channel 'mychannel'... ===================== 
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+Attempting to Query PEER0 ...3 secs
+Attempting to Query PEER0 ...6 secs
+Attempting to Query PEER0 ...9 secs
+Attempting to Query PEER0 ...12 secs
+Attempting to Query PEER0 ...15 secs
+Attempting to Query PEER0 ...18 secs
+Attempting to Query PEER0 ...21 secs
+
+[36m2017-07-17 08:14:48.750 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:14:48.750 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:14:48.750 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 003[0m Using default escc
+2017-07-17 08:14:48.750 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default vscc
+[36m2017-07-17 08:14:48.750 UTC [msp/identity] Sign -> DEBU 005[0m Sign: plaintext: 0A95070A6708031A0C08F8E3B1CB0510...6D7963631A0A0A0571756572790A0161 
+[36m2017-07-17 08:14:48.750 UTC [msp/identity] Sign -> DEBU 006[0m Sign: digest: 6D55CBE91C337166C83595246A75410E61FDFE08B7FF5A72CB267BB143C71C05 
+Query Result: 100
+2017-07-17 08:15:01.026 UTC [main] main -> INFO 007[0m Exiting.....
+===================== Query on PEER0 on channel 'mychannel' is successful ===================== 
+Sending invoke transaction on org1/peer0...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org1MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+[36m2017-07-17 08:15:01.082 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:15:01.082 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:15:01.083 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 003[0m Using default escc
+2017-07-17 08:15:01.083 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default vscc
+[36m2017-07-17 08:15:01.084 UTC [msp/identity] Sign -> DEBU 005[0m Sign: plaintext: 0A94070A6608031A0B0885E4B1CB0510...696E766F6B650A01610A01620A023130 
+[36m2017-07-17 08:15:01.084 UTC [msp/identity] Sign -> DEBU 006[0m Sign: digest: 2163F9ABF20168369DB9B8CFA1E6517CC451DD7493494778235C863A4469CFB8 
+[36m2017-07-17 08:15:01.090 UTC [msp/identity] Sign -> DEBU 007[0m Sign: plaintext: 0A94070A6608031A0B0885E4B1CB0510...BF69F9345B3D0B3B5C8ECFE48A5B930B 
+[36m2017-07-17 08:15:01.090 UTC [msp/identity] Sign -> DEBU 008[0m Sign: digest: 46FA096BC94A7DD7F070C5B73A27D3E682FB72B41EF22EE503AF38ACDC3269B4 
+[36m2017-07-17 08:15:01.091 UTC [chaincodeCmd] chaincodeInvokeOrQuery -> DEBU 009[0m ESCC invoke result: version:1 response:<status:200 message:"OK" > payload:"\n \214\343$j\\\360\364\n\270\301\000\302T\177=\236\237UA=k\027c9\243\356\031\017A\020\353\243\022Y\nE\022\024\n\004lscc\022\014\n\n\n\004mycc\022\002\010\003\022-\n\004mycc\022%\n\007\n\001a\022\002\010\003\n\007\n\001b\022\002\010\003\032\007\n\001a\032\00290\032\010\n\001b\032\003210\032\003\010\310\001\"\013\022\004mycc\032\0031.0" endorsement:<endorser:"\n\007Org1MSP\022\200\006-----BEGIN -----\nMIICGTCCAb+gAwIBAgIQM5f+sSjTQeTPaIAy94lMzDAKBggqhkjOPQQDAjBzMQsw\nCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy\nYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEcMBoGA1UEAxMTY2Eu\nb3JnMS5leGFtcGxlLmNvbTAeFw0xNzA3MTcwODE0MDFaFw0yNzA3MTUwODE0MDFa\nMFsxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T\nYW4gRnJhbmNpc2NvMR8wHQYDVQQDExZwZWVyMC5vcmcxLmV4YW1wbGUuY29tMFkw\nEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuVFYGry77Unn1LFb+mJPajGHbkKbs/s3\nwZyuQs2WD9x5DNviqo0Y+IJIakEy5gQ2KSu0nXijMxK1Trx8rVuxtqNNMEswDgYD\nVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwKwYDVR0jBCQwIoAgTJ6Rt8N0wCix\nOOdpDvlfVlwthIaYhweyF7u9qv/AlYcwCgYIKoZIzj0EAwIDSAAwRQIhAPVCQc+T\nFukC3Rdr6x5pjHvGoR3G7ogo837BGtgx0r77AiAuEohibj76pBOnBwzJABrMyy++\nazwXazBkgesBuHacjA==\n-----END -----\n" signature:"0D\002 \026k\000\267\261\003\273\344} \367\214\237\314f\361\362\242d(b\210n\301<U\312nU\006Wk\002 xz)\344*\rr?\t[YV\257e\005j\277i\3714[=\013;\\\216\317\344\212[\223\013" > 
+2017-07-17 08:15:01.093 UTC [chaincodeCmd] chaincodeInvokeOrQuery -> INFO 00a[0m Chaincode invoke successful. result: status:200 
+2017-07-17 08:15:01.093 UTC [main] main -> INFO 00b[0m Exiting.....
+===================== Invoke transaction on PEER0 on channel 'mychannel' is successful ===================== 
+
+Installing chaincode on org2/peer3...
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org2MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer1.org2.example.com:7051
+[36m2017-07-17 08:15:01.128 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:15:01.128 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:15:01.128 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 003[0m Using default escc
+2017-07-17 08:15:01.128 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default vscc
+[36m2017-07-17 08:15:01.181 UTC [golang-platform] getCodeFromFS -> DEBU 005[0m getCodeFromFS github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02
+[36m2017-07-17 08:15:01.326 UTC [golang-platform] func1 -> DEBU 006[0m Discarding GOROOT package fmt
+[36m2017-07-17 08:15:01.326 UTC [golang-platform] func1 -> DEBU 007[0m Discarding provided package github.com/hyperledger/fabric/core/chaincode/shim
+[36m2017-07-17 08:15:01.326 UTC [golang-platform] func1 -> DEBU 008[0m Discarding provided package github.com/hyperledger/fabric/protos/peer
+[36m2017-07-17 08:15:01.326 UTC [golang-platform] func1 -> DEBU 009[0m Discarding GOROOT package strconv
+[36m2017-07-17 08:15:01.326 UTC [golang-platform] GetDeploymentPayload -> DEBU 00a[0m done
+[36m2017-07-17 08:15:01.328 UTC [msp/identity] Sign -> DEBU 00b[0m Sign: plaintext: 0A8A070A5C08031A0C0885E4B1CB0510...3C66FC330000FFFF7FCF700C001C0000 
+[36m2017-07-17 08:15:01.328 UTC [msp/identity] Sign -> DEBU 00c[0m Sign: digest: C98A85CC162660B52F15939E3F79B8C2F46ACA5CE29F6727106764B8F06EF9A9 
+[36m2017-07-17 08:15:01.332 UTC [chaincodeCmd] install -> DEBU 00d[0m Installed remotely response:<status:200 payload:"OK" > 
+2017-07-17 08:15:01.332 UTC [main] main -> INFO 00e[0m Exiting.....
+===================== Chaincode is installed on remote peer PEER3 ===================== 
+
+Querying chaincode on org2/peer3...
+===================== Querying on PEER3 on channel 'mychannel'... ===================== 
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+CORE_PEER_TLS_KEY_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key
+CORE_PEER_LOCALMSPID=Org2MSP
+CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+CORE_PEER_TLS_CERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt
+CORE_PEER_TLS_ENABLED=false
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+CORE_PEER_ID=cli
+CORE_LOGGING_LEVEL=DEBUG
+CORE_PEER_ADDRESS=peer1.org2.example.com:7051
+Attempting to Query PEER3 ...3 secs
+Attempting to Query PEER3 ...17 secs
+Attempting to Query PEER3 ...20 secs
+
+[36m2017-07-17 08:15:21.877 UTC [msp] GetLocalMSP -> DEBU 001[0m Returning existing local MSP
+[36m2017-07-17 08:15:21.877 UTC [msp] GetDefaultSigningIdentity -> DEBU 002[0m Obtaining default signing identity
+2017-07-17 08:15:21.877 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 003[0m Using default escc
+2017-07-17 08:15:21.877 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 004[0m Using default vscc
+[36m2017-07-17 08:15:21.877 UTC [msp/identity] Sign -> DEBU 005[0m Sign: plaintext: 0A95070A6708031A0C0899E4B1CB0510...6D7963631A0A0A0571756572790A0161 
+[36m2017-07-17 08:15:21.877 UTC [msp/identity] Sign -> DEBU 006[0m Sign: digest: 540E36C705D43448EDF4329A358472CF81F9F4FD238C6BE65886442CE34793E9 
+Query Result: 90
+2017-07-17 08:15:21.883 UTC [main] main -> INFO 007[0m Exiting.....
+===================== Query on PEER3 on channel 'mychannel' is successful ===================== 
+
+===================== All GOOD, End-2-End execution completed ===================== 
+
+
+ _____   _   _   ____            _____   ____    _____ 
+| ____| | \ | | |  _ \          | ____| |___ \  | ____|
+|  _|   |  \| | | | | |  _____  |  _|     __) | |  _|  
+| |___  | |\  | | |_| | |_____| | |___   / __/  | |___ 
+|_____| |_| \_| |____/          |_____| |_____| |_____|
+
